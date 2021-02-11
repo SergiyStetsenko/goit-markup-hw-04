@@ -1,0 +1,85 @@
+/*список кнопок*/
+.mani {
+  padding: 6px 22px;
+  margin-right: 8px;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  border: 1px solid #eeeeee;
+  flex-basis: calc(100% / 3);
+}
+.mani:hover,
+.mani:focus {
+  background-color: var(--accent-color);
+  color: #ffffff;
+}
+button {
+  font-family: inherit;
+}
+h3,
+p {
+  margin-bottom: 0px;
+}
+.flex {
+  margin-bottom: 85px;
+}
+.navigation .mani {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+}
+.grid {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  margin: 0 auto;
+}
+.cart-set {
+  width: auto;
+  flex-basis: calc(100% / 3 - 30px);
+  display: flex;
+  flex-wrap: wrap;
+  width: 1200px;
+  margin-top: -30px;
+  margin-left: -30px;
+}
+.navigation {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+/*основное меню страницы*/
+li a {
+  text-decoration: none;
+  display: block;
+}
+.fon {
+  width: 370px;
+  background-color: #ffffff;
+  margin-top: 30px;
+  margin-left: 30px;
+  border: 1px solid #eeeeee;
+}
+.fon:nth-child(2n + 1) {
+  margin-right: 0px;
+}
+.fontos {
+  padding-top: 20px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 20px;
+}
+.techno {
+  font-weight: 700;
+  font-size: 18px;
+  padding-bottom: 4px;
+  margin: 0px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--primary-text-color);
+}
+.site {
+  margin: 0px;
+  font-size: 16px;
+  line-height: 1.8;
+  color: var(--title-text-color);
+}

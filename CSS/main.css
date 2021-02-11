@@ -1,0 +1,218 @@
+:root {
+  --primary-text-color: #212121;
+  --title-text-color: #757575;
+  --accent-color: #2196f3;
+}
+body {
+  color: var(--primary-text-color);
+  background-color: #ffffff;
+  margin: 0;
+}
+/* header */
+.logo {
+  color: var(--primary-text-color);
+}
+.logo:hover,
+.logo:focus {
+  color: var(--accent-color);
+}
+.color {
+  color: var(--accent-color);
+}
+
+ul li {
+  list-style: none;
+}
+
+.site-naw .link.current {
+  color: var(--accent-color);
+}
+
+/*Секция героя*/
+button {
+  display: inline-block;
+  padding: 10px;
+  border-radius: 4px;
+  color: #ffffff;
+  background-color: var(--accent-color);
+  border: #ffffff;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+}
+h1 {
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.team {
+  padding-top: 200px;
+  padding-left: 15px;
+  padding-bottom: 200px;
+  padding-right: 15px;
+  background-color: #2f303a;
+  margin: 0 auto;
+}
+.hero {
+  text-align: center;
+}
+.containet,
+.good {
+  margin-right: -30px;
+}
+.hero-title {
+  margin: 0px;
+  padding-bottom: 30px;
+}
+/*Спрайт*/
+.sprte {
+  margin: 0 auto;
+  padding-top: 94px;
+  padding-bottom: 30px;
+  background-color: #ffffff;
+}
+.rer {
+  width: auto;
+  display: inline-flex;
+  justify-content: space-between;
+}
+.mod {
+  width: 270px;
+  height: 120px;
+  background: #f5f4fa;
+  border-radius: 4px;
+  margin: 0;
+  margin-right: 30px;
+}
+.mods-icon {
+  padding: 25px 102px;
+}
+.icon {
+  fill: #212121;
+}
+
+/*Секция преимущества*/
+.containet {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+.containet:not(:last-child) {
+  padding-bottom: 94px;
+}
+.lol {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  margin: 0 auto;
+  background-color: #ffffff;
+}
+.advantages {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+h2,
+h3,
+p,
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+.advantages-title {
+  display: flex;
+  justify-content: space-between;
+}
+.itenn {
+  width: 270px;
+}
+p {
+  color: var(--title-text-color);
+}
+.second {
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+/* наша работа*/
+.work {
+  padding-bottom: 94px;
+  margin: 0 auto;
+  background-color: #ffffff;
+}
+.important {
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+}
+
+/*команда*/
+.section {
+  margin: 0 auto;
+  background-color: #f5f4fa;
+  padding-bottom: 94px;
+  padding-top: 94px;
+}
+.section:not(:last-child) {
+  margin-bottom: 94px;
+}
+.foto {
+  display: flex;
+  justify-content: space-between;
+}
+.bot {
+  background-color: #ffffff;
+  text-align: center;
+  padding-bottom: 30px;
+  border-radius: 0px 0px 4px 4px;
+}
+.section-item-en {
+  display: flex;
+  justify-content: space-between;
+}
+.section .advantages-containet {
+  padding-top: 94px;
+}
+.item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+.item-en {
+  font-size: 16px;
+  line-height: 1.18;
+}
+
+/*подвал*/
+.bottom {
+  background-color: #2f303a;
+  padding-bottom: 60px;
+}
+.white {
+  color: #ffffff;
+}
+.new {
+  color: var(--accent-color);
+}
+.address {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* цвет основного текста #212121 */
+/* вторичный цвет текста #757575 */
+/* синий для виделений акцент #2196F3 */
+/* белый цвет  #FFFFFF */
+/* цвет с прозрачность для подвала rgba(255, 255, 255, 0.6);*/

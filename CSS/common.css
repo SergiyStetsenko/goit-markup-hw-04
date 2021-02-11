@@ -1,0 +1,182 @@
+:root {
+  --primary-text-color: #212121;
+  --title-text-color: #757575;
+  --accent-color: #2196f3;
+}
+body {
+  color: var(--primary-text-color);
+  background-color: #ffffff;
+  margin: 0;
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+/* header */
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+.text {
+  margin: 0 auto;
+}
+.logo {
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 25px;
+  padding-right: 93px;
+
+  color: var(--primary-text-color);
+  text-decoration: none;
+  font-family: Raleway, cursive;
+  font-size: 26px;
+  line-height: 1.2;
+}
+.logo:hover,
+.logo:focus {
+  color: var(--accent-color);
+}
+.color {
+  color: var(--accent-color);
+}
+.site-naw .iten:not(:last-child) {
+  padding-right: 50px;
+}
+.site-naw {
+  display: flex;
+  font-weight: 500;
+  margin: 0px;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.contacts {
+  display: flex;
+  font-weight: 500;
+  margin: 0px;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+ul li {
+  list-style: none;
+}
+.link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
+  color: var(--primary-text-color);
+  text-decoration: none;
+}
+.link:hover,
+.link:focus {
+  color: var(--accent-color);
+}
+.conta {
+  display: flex;
+  align-items: center;
+  padding: 0;
+}
+.background {
+  border: 1px solid #ececec;
+  margin: 0 auto;
+}
+/* header container */
+.container {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  background-color: #ffffff;
+}
+.link.current {
+  color: var(--accent-color);
+}
+.contacts-color {
+  display: block;
+  color: var(--title-text-color);
+  text-decoration: none;
+}
+
+.contacts-color:hover,
+.contacts-color:focus {
+  color: var(--accent-color);
+}
+.contacts .iten:not(:last-child) {
+  margin-right: 50px;
+}
+/*main*/
+.containet {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+}
+h1 {
+  color: #ffffff;
+}
+/*подвал*/
+.bottom {
+  background-color: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  margin: 0 auto;
+}
+.finish {
+  padding-bottom: 9px;
+}
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+.bot-logo {
+  font-size: 26px;
+  line-height: 1.2;
+}
+.white {
+  color: #ffffff;
+}
+
+.bottom .logo {
+  display: block;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 0px;
+}
+.white-adderess {
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 1.71;
+  padding-bottom: 9px;
+}
+address {
+  font-style: normal;
+}
+.new {
+  color: var(--accent-color);
+}
+.address {
+  color: rgba(255, 255, 255, 0.6);
+}
+.info {
+  font-size: 14px;
+  line-height: 1.71;
+}
