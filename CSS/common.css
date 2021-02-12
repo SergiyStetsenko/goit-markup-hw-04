@@ -39,11 +39,23 @@ html {
 .logo:focus {
   color: var(--accent-color);
 }
+.riko {
+  fill: var(--title-text-color);
+  margin-right: 10px;
+}
+.riko:hover,
+.riko:focus svg {
+  fill: var(--accent-color);
+}
 .color {
   color: var(--accent-color);
 }
 .site-naw .iten:not(:last-child) {
   padding-right: 50px;
+}
+.iten {
+  display: flex;
+  text-align: center;
 }
 .site-naw {
   display: flex;
@@ -77,6 +89,7 @@ html {
 .iten {
   display: flex;
   text-align: center;
+  justify-content: center;
 }
 .wera {
   margin-right: 10px;
@@ -121,11 +134,19 @@ ul li {
   color: var(--accent-color);
 }
 .contacts-color {
-  display: block;
+  display: flex;
+  align-items: center;
   color: var(--title-text-color);
   text-decoration: none;
 }
-
+.wera:hover,
+.wera:focus svg {
+  fill: var(--accent-color);
+}
+.riko.contacts-color:hover,
+.riko.contacts-color:focus svg {
+  color: var(--accent-color);
+}
 .contacts-color:hover,
 .contacts-color:focus {
   color: var(--accent-color);
@@ -230,11 +251,10 @@ address {
   border: 1px solid var(--accent-color);
 }
 .happe {
-}
-.happe {
   width: 44px;
-  height: 44px;}
-  
+  height: 44px;
+}
+
 .masha {
   display: flex;
   align-items: center;
@@ -260,4 +280,5 @@ address {
 }
 .icon:hover,
 .icon:focus {
-  fill: ##FFFFFF;
+  fill: #ffffff;
+}
