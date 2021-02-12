@@ -245,7 +245,7 @@ address {
   fill: #ffffff;
 }
 .masha:focus svg {
-  fill: var(--accent-color);
+  fill: #ffffff;
 }
 .masha:focus {
   border: 1px solid var(--accent-color);

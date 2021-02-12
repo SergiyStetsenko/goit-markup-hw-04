@@ -100,7 +100,6 @@ h1 {
 .icon:focus {
   fill: #FFFFFF;
 }
-
 .happe {
   width: 44px;
   height: 44px;
@@ -189,13 +188,14 @@ p {
 .goood:focus {
   border: 1px solid var(--accent-color);
   background-color:var(--accent-color)
+  
 }
 .goood:hover svg{
   fill:#FFFFFF;
 }
 
 .goood:focus svg{
-  fill:var(--accent-color); 
+  fill: #FFFFFF;; 
 }
 .goood:focus {
   border: 1px solid var(--accent-color);
