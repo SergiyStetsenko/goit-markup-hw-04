@@ -61,7 +61,14 @@ html {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
-
+.iten {
+  display: flex;
+  text-align: center;
+}
+.wera {
+  margin-right: 10px;
+  text-align: center;
+}
 ul li {
   list-style: none;
 }
