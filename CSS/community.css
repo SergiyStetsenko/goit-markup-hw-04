@@ -25,6 +25,9 @@ p {
 .flex {
   margin-bottom: 85px;
 }
+.jpg {
+  width: 100%;
+}
 .navigation .mani {
   font-weight: 500;
   font-size: 16px;
@@ -85,4 +88,9 @@ li a {
   font-size: 16px;
   line-height: 1.8;
   color: var(--title-text-color);
+}
+.fon:hover,
+.fon:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
