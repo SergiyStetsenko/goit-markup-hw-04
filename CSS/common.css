@@ -53,10 +53,6 @@ html {
 .site-naw .iten:not(:last-child) {
   padding-right: 50px;
 }
-.iten {
-  display: flex;
-  text-align: center;
-}
 .site-naw {
   display: flex;
   font-weight: 500;
@@ -152,9 +148,6 @@ ul li {
   color: var(--accent-color);
 }
 .iten:hover svg {
-  fill: var(--accent-color);
-}
-.iten:focus svg {
   fill: var(--accent-color);
 }
 .contacts .iten:not(:last-child) {
