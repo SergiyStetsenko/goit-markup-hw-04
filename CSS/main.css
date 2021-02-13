@@ -58,11 +58,8 @@ h1 {
   padding-bottom: 200px;
   margin-left: auto;
   margin-right: auto;
-  text-align: center;
   max-width: 1600px;
   height: 600px;
-  background-repeat: no-repeat;
-  background-position: center;
   background-size: cover;
   background-image: linear-gradient( rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4) ), url(../images/Img\ hero.jpg);
   
