@@ -181,7 +181,27 @@ p {
   line-height: 1.16;
   text-align: center;
 }
-
+.abcolut {
+  display: flex;
+  text-align: center;
+  justify-content: end;
+  position: relative;
+  width: 100%;
+}
+.yoga {
+   width: 100%;
+  color: #ffffff;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  background: rgba(47, 48, 58, 0.8);
+  padding-top: 27px;
+  padding-bottom: 27px; 
+}
 /*команда*/
 .section {
   margin: 0 auto;

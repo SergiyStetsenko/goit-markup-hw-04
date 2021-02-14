@@ -74,7 +74,42 @@ li a {
   padding-right: 24px;
   padding-bottom: 20px;
 }
+.bea {
+  /* width: 370px; */
+  display: flex;
+  text-align: center;
+  justify-content: end;
+  position: relative;
+}
+.fon:hover .bea:hover.bea::before {
+  opacity: 1;
+}
+.bea::before {
+  display: inline-block;
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: rgba(33, 150, 243, 0.9);
+  opacity: 0;
+  transition: 250ms opacity linear;
+}
+
+.apasition {
+  position: absolute;
+  opacity: 0;
+  display: flex;
+  text-align: center;
+  font-family: inherit;
+  font-family: Roboto;
+  font-size: 18px;
+  line-height: 1.56;
+  color: #ffffff;
+  background: rgba(33, 150, 243, 0.9);
+}
+/* } */
 .techno {
+  display: flex;
   font-weight: 700;
   font-size: 18px;
   padding-bottom: 4px;
